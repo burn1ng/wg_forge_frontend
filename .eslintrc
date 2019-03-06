@@ -1,0 +1,112 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "dot-notation": "error",
+        "constructor-super": "error",
+        "curly": "off",
+        "eqeqeq": "error",
+        //"linebreak-style": "error",
+        "no-bitwise": "error",
+        "no-cond-assign": "off",
+        "no-debugger": "off",
+        "no-eq-null": "error",
+        "no-eval": "error",
+        "no-loop-func": "error",
+        "no-caller": "error",
+        "no-script-url": "error",
+        "no-shadow": "off",
+        "no-new-func": "off",
+        "no-new-wrappers": "off",
+        "no-empty": "error",
+        "no-new": "warn",
+        "no-plusplus": "off",
+        "no-var": "error",
+        "no-undef": "error",
+        "no-unused-expressions": "off",
+        "consistent-this": [
+            "error",
+            "self"
+        ],
+        "no-unused-vars": "error",
+        "no-use-before-define": "error",
+        "object-shorthand": [
+            "error",
+            "always"
+        ],
+        "quotes": [
+            "warn",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "prefer-rest-params": "warn",
+        "space-before-blocks": "error",
+        "prefer-spread": "error",
+        "prefer-arrow-callback": "error",
+        "no-confusing-arrow": "off",
+        "no-useless-constructor": "error",
+        "no-dupe-class-members": "error",
+        "no-case-declarations": "error",
+        "no-nested-ternary": "error",
+        "no-unneeded-ternary": "error",
+        "brace-style": "error",
+        "keyword-spacing": [
+            "error",
+            {
+                "before": true
+            }
+        ],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1,
+                "CallExpression": {
+                    "arguments": "first"
+                }
+            }
+        ],
+        "padded-blocks": [
+            "error",
+            "never"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "space-in-parens": [
+            "error",
+            "never"
+        ],
+        "max-len": [
+            "warn",
+            120,
+            {
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        "new-cap": [
+            "error",
+            {
+                "capIsNew": false
+            }
+        ],
+        "multiline-ternary": [
+            "error",
+            "always-multiline"
+        ],
+        "strict": "off",
+        "wrap-iife": [
+            "error",
+            "any"
+        ]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    }
+}
